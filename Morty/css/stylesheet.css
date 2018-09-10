@@ -49,7 +49,6 @@ body{
 	background-color: #9f97c2; 	
 }
 
-
 .pixel-purple{
 	background-color: #7e5dd4;	
 }
@@ -885,3 +884,112 @@ body{
 }
 
 /*Row 21 DONE*/
+
+#pixel-light-grey-row-21{
+	top:525px;
+	left:350px;
+	width:50px;
+}
+
+#pixel-dark-grey-row-21{
+	top:525px;
+	left:300px;
+	width:50px;	
+}
+
+#pixel-dark-purple-row-21{
+	top:525px;
+	left:425px;
+}
+
+#pixel-purple-row-21{
+	top:525px;
+	left:450px;
+	width:75px;
+}
+
+#pixel-skin-outer-row-21-1{
+	top:525px;
+	left:225px;
+	width:50px;
+}
+
+#pixel-skin-outer-row-21-2{
+	top:525px;
+	left:550px;
+	width:50px;
+}
+
+/*Row 22 DONE*/
+
+#pixel-red-row-22{
+	top:550px;
+	left:450px;
+	width:75px;
+}
+
+#pixel-dark-grey-row-22{
+	top:550px;
+	left:350px;
+	width:50px;	
+}
+
+#pixel-white-shadow-row-22{
+	top:550px;
+	left:300px;
+	width:50px;
+}
+
+#pixel-purple-row-22-1{
+	top:550px;
+	left:425px;
+}
+
+#pixel-purple-row-22-2{
+	top:550px;
+	left:475px;
+}
+
+/*Row 23 DONE*/
+
+#pixel-dark-grey-row-23-1{
+	top:575px;
+	left:275px;
+}
+
+#pixel-dark-grey-row-23-2{
+	top:575px;
+	left:525px;
+}
+
+#pixel-white-shadow-row-23{
+	top:575px;
+	left:325px;
+	width:75px;
+}
+
+#pixel-red-row-23{
+	top:575px;
+	left:425px;
+	width:50px;
+}
+
+/*Row 24 DONE*/
+
+#pixel-red-row-24-1{
+	top:600px;
+	left:300px;
+	width:50px;
+}
+
+#pixel-red-row-24-2{
+	top:600px;
+	left:475px;
+	width:50px;
+}
+
+#pixel-dark-grey-row-24{
+	top:600px;
+	left:375px;
+	width:50px;
+}
