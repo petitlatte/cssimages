@@ -1,0 +1,139 @@
+body{
+  padding:0;
+  margin:0;
+  background-color: #e0dad5;
+  margin-top:40px;
+}
+
+#background{
+	position:relative;
+	display:block;
+	margin: 0 auto;
+	height:600px;
+	width:600px;
+	border: solid 2px black;
+}
+
+#body,
+#jewel,
+.ear,
+.eye,
+#mouth,
+.hand,
+.feet{
+		position:absolute;
+}
+
+
+#body{
+	top:13%;
+	left:21%;	
+   width:350px;
+   height: 400px;
+   background-color: white;
+   border: solid 4px black;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+
+}
+
+#jewel {
+	top:16%;
+	left:44%;
+	width: 80px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+   border: solid 3px black;	
+}
+
+.eye{
+	width:100px; 
+	height:120px;  
+  border:solid 3px #000;
+  border-color:black transparent transparent transparent;
+  border-radius: 90%/100px 100px 0 0;
+
+}
+
+#eye-left{
+	top:36%;
+	left:30%;
+  transform:rotate(5deg);	
+}
+
+#eye-right{
+	top:36%;
+	left:55%;
+  transform:rotate(-5deg);	
+}
+
+.hand{
+	width: 30px;
+	height: 30px;
+	-moz-border-radius: 0 0 50% 50%;
+	-webkit-border-radius: 0 0 50% 50%;
+	border-radius: 0 0 50% 50%;
+   border: solid 4px black;
+   border-top:none;
+}
+
+#hand-left{
+	top:50%;
+	left:24%;
+     transform:rotate(-30deg);	
+}
+
+#hand-right{
+	top:50%;
+	left:70%;
+     transform:rotate(30deg);	
+}
+
+.feet {
+	width: 65px;
+	height: 180px;
+	background: white;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+   border: solid 4px black; 	
+}
+
+#feet-left{
+	top:63%;
+	left:30%;
+   transform:rotate(49deg);  
+}
+
+#feet-right{
+	top:63%;
+	left:57%;
+   transform:rotate(-49deg);  
+}
+
+.ear{
+	width: 65px;
+	height: 350px;
+	background: white;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+   border: solid 5px black; 	
+}
+
+#ear-left{
+	top:13%;
+	left:14%;
+   transform:rotate(39deg);  	
+
+}
+
+#ear-right{
+	top:13%;
+	left:74%;
+   transform:rotate(-39deg);  	
+
+}
