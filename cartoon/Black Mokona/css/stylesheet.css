@@ -1,7 +1,7 @@
 body{
   padding:0;
   margin:0;
-  background-color: #e4daf2;
+  background-color: #e0dad5;
   margin-top:10px;
 }
 
@@ -33,7 +33,7 @@ body{
 	left:21%;	
    width:350px;
    height: 400px;
-   background-color: #333333;
+   background-color: white;
    border: solid 4px black;
    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
    border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
@@ -45,7 +45,7 @@ body{
 	left:44%;
 	width: 80px;
 	height: 100px;
-	background: #5b97f7;
+	background: red;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
@@ -61,14 +61,14 @@ body{
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	background-color: #cee1ff;
+	background-color: #ffc9c9;
 
 }
 .eye{
 	width:100px; 
 	height:120px;  
   border:solid 3px #000;
-  border-color:white transparent transparent transparent;
+  border-color:black transparent transparent transparent;
   border-radius: 90%/100px 100px 0 0;
 
 }
@@ -91,7 +91,7 @@ body{
 	-moz-border-radius: 0 0 50% 50%;
 	-webkit-border-radius: 0 0 50% 50%;
 	border-radius: 0 0 50% 50%;
-   border: solid 4px white;
+   border: solid 4px black;
    border-top:none;
 }
 
@@ -110,7 +110,7 @@ body{
 .feet {
 	width: 65px;
 	height: 180px;
-	background: #333333;
+	background: white;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
@@ -132,7 +132,7 @@ body{
 .ear{
 	width: 65px;
 	height: 350px;
-	background: #333333;
+	background: white;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
@@ -154,23 +154,23 @@ body{
 
 #earring-clip{
 	top:57%;
-	left:85%;
+	left:8%;
 	width:40px;
 	height:15px;
 	background-color: #edea53;
    border: solid 3px black;
-    transform:rotate(43deg);     	
+    transform:rotate(-43deg);     	
 }
 
 #earring-jewel{
 	top:59%;
-	left:84%;
+	left:12%;
 	width:20px;
 	height:20px;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	background-color: #5b97f7;
+	background-color: red;
 	border: solid 3px black;
 }
 
@@ -188,8 +188,8 @@ body{
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-   border: solid 2px white;
-   border-color: transparent transparent white transparent; 			
+   border: solid 2px black;
+   border-color: transparent transparent black transparent; 			
 }
 
 #mouth-left{
