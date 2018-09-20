@@ -2,7 +2,7 @@ body{
   padding:0;
   margin:0;
   background-color: #e0dad5;
-  margin-top:40px;
+  margin-top:10px;
 }
 
 #background{
@@ -11,14 +11,17 @@ body{
 	margin: 0 auto;
 	height:600px;
 	width:600px;
-	border: solid 2px black;
 }
 
 #body,
 #jewel,
+#jewel-shine,
 .ear,
+#earring-clip,
+#earring-jewel,
 .eye,
-#mouth,
+.blush,
+.mouth,
 .hand,
 .feet{
 		position:absolute;
@@ -49,6 +52,18 @@ body{
    border: solid 3px black;	
 }
 
+#jewel-shine{
+	top:18%;
+	left:51%;
+	width: 30px;
+	height: 40px;
+	background: red;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background-color: #ffc9c9;
+
+}
 .eye{
 	width:100px; 
 	height:120px;  
@@ -135,5 +150,73 @@ body{
 	top:13%;
 	left:74%;
    transform:rotate(-39deg);  	
+}
 
+#earring-clip{
+	top:57%;
+	left:8%;
+	width:40px;
+	height:15px;
+	background-color: #edea53;
+   border: solid 3px black;
+    transform:rotate(-43deg);     	
+}
+
+#earring-jewel{
+	top:59%;
+	left:12%;
+	width:20px;
+	height:20px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background-color: red;
+	border: solid 3px black;
+}
+
+
+
+
+
+
+
+
+
+.mouth{
+	width: 30px;
+	height: 30px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+   border: solid 2px black;
+   border-color: transparent transparent black transparent; 			
+}
+
+#mouth-left{
+	top:40%;
+	left:46.4%;
+}
+
+#mouth-right{
+	top:40%;
+	left:50%;
+}
+
+.blush{
+	width: 60px;
+	height: 15px;
+	background: pink;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+#blush-left{
+	top:41%;
+	left:27%;
+}
+
+#blush-right{
+	top:41%;
+	left:65%;
 }
